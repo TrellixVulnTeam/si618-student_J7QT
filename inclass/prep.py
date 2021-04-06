@@ -19,7 +19,7 @@ import sources
 
 DATASETS = ["random", "weather", "accounts", "flights", "all"]
 here = os.path.dirname(__file__)
-data_dir = os.path.abspath(os.path.join(here, 'data'))
+data_dir = os.path.abspath(os.path.join('..', here, 'data'))
 
 
 def parse_args(args=None):
